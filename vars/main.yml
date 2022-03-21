@@ -5,12 +5,12 @@ lufi_owner: "www-data"
 
 lufi_group: "www-data"
 
-contact: "https://contact.example.com"
+contact: "http://contact.example.com"
 
 report: "report@example.com"
 
-app_dir: "/var/www/lufi"
+app_dir: ""
 
-project_version: "master"
+project_version: ""
 
-servername: "xxx.xxx.xxx"
+servername: ""

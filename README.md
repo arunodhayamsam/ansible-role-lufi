@@ -23,9 +23,17 @@ The following code has been tested with Ubuntu 20.04
  
 - name: "install lufi"
   hosts: enter your hosts file
-  beome: yes
+  become: yes
   role:
     - ansible-role-lufi
+  vars:
+    lufi_owner: "www-data"
+    lufi_group: "www-data"
+    contact: "http://contact.example.com"
+    report: "report@example.com"
+    app_dir: "/var/www/lufi"
+    project_version: "master"
+    servername: "IP address (or) CNAME/FQDN"
 ```   
 
 Contributing
