@@ -10,7 +10,7 @@ Role Variables
 | `lufi_owner` | www-data | Set the application user for the best practice |
 | `lufi_group` | www-data | Set the application group for the best practice |
 | `contact` | http://contact@example.com | Contact option (mandatory), where you have to put some way for the users to contact you. |
-| `report` | report@example.com | put an email address or an URL to let people report illegal files |
+| `report` | report@example.com | report option (mandatory) Put an email address or an URL to let people report illegal files |
 | `project_version` | master | We can chose the project version either Master branch, Dev branch or tag based |
 | `servername` | IP address (or) CNAME/FQDN | Mention the Server Name for the Nginx configurations |
 
