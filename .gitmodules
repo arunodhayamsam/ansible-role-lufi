@@ -1,0 +1,3 @@
+[submodule "lufi-aws-deploy"]
+	path = lufi-aws-deploy
+	url = https://github.com/arunodhayamsam/lufi-aws-deploy
