@@ -5,7 +5,7 @@ lufi_owner: "www-data"
 
 lufi_group: "www-data"
 
-contact: "http://contact.example.com"
+contact: "contact.example.com"
 
 report: "report@example.com"
 
