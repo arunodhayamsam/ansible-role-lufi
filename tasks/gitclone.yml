@@ -7,7 +7,7 @@
     dest: "{{ app_dir }}"
     clone: yes
     update: yes 
-    version: "{{ project_version }}"
+    version: "{{ _project_version }}"
 
 - name: Change the owner 
   ansible.builtin.file:
